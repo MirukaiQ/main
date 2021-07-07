@@ -1,4 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.nav{ 
+    height: 100vh;
+}
+.nav-list {
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-list-item {
+    background-color: cyan;
+    display: inline-block;
+    position: relative;
+}
+.nav-list-item-link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    width: 150px;
+    border: 1px solid black; 
 }
